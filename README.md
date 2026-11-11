@@ -189,6 +189,11 @@ so a reinstall picks them up. Order history comments are part of your orders and
 - **"The connection service couldn't be reached":** try again in a minute. If it keeps
   happening, ask in the support thread.
 
+## Support
+
+Questions and problems: the Stamps4ZenCart support thread on the Zen Cart forum,
+https://www.zen-cart.com/threads/207488?page=1#post-1347986
+
 ## Changelog
 
 See `CHANGELOG.md`. Version 1.0.0 is the first release, with notifiers for add-ons (see For

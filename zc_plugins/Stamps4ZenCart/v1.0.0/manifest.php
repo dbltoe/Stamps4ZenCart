@@ -14,7 +14,7 @@
  * @package  Stamps4ZenCart
  * @license  https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
  */
-$s4zForumUrl = '';
+$s4zForumUrl = 'https://www.zen-cart.com/threads/207488?page=1#post-1347986';
 $s4zGithubUrl = 'https://github.com/dbltoe/Stamps4ZenCart';
 
 $s4zButtonStyle = ' class="btn btn-primary" role="button" style="margin:0 4px 0 0;padding-left:8px;padding-right:8px"';

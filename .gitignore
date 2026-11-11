@@ -1,0 +1,5 @@
+# Local harness and build output: packaged from source by tools/build_package.ps1.
+tests/
+dist/
+*.zip
+*.log

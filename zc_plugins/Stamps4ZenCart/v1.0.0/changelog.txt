@@ -1,0 +1,8 @@
+Stamps4ZenCart changelog
+
+v1.0.0 (2026-11-10)
+- First release: connect a store to Stamps.com, check addresses, get USPS rates,
+  buy, reprint and void labels, track shipments, schedule USPS pickups and
+  create SCAN forms from the Zen Cart admin. Balance shown before buying.
+  Sample label button for printer alignment. U.S. destinations only.
+- Notifiers for add-ons (docs/CUSTOMIZING.md).

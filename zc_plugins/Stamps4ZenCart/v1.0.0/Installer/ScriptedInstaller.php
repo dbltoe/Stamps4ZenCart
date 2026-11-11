@@ -158,8 +158,8 @@ class ScriptedInstaller extends ScriptedInstallBase
         $storeEmail = defined('STORE_OWNER_EMAIL_ADDRESS') ? STORE_OWNER_EMAIL_ADDRESS : '';
 
         $keys = [
-            ['S4Z_ENVIRONMENT', 'Stamps.com Environment', 'staging',
-                '<b>Staging</b> makes test labels only (never mail them). Switch to <b>Production</b> only after Stamps4ZenCart is approved for production. Each environment has its own connection.',
+            ['S4Z_ENVIRONMENT', 'Stamps.com Environment', 'production',
+                '<b>Production</b> makes real, paid labels with your Stamps.com account. <b>Staging</b> is Stamps.com\'s test system, for developers with a Stamps.com test account; its labels are never valid for mailing. Each environment has its own connection.',
                 "zen_cfg_select_option(array('staging', 'production'), "],
             ['S4Z_SERVICE_URL', 'Connection Service URL', 'https://myzencartzone.com/stamps-connect',
                 'The myZenCartZone service that connects this store to Stamps.com. Leave as is unless support asks you to change it.', ''],

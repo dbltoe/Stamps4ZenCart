@@ -100,8 +100,9 @@ Priority Mail Express label, and USPS doesn't pick up on Sundays or federal holi
 
 ## Settings
 
-- **Stamps.com Environment:** *Staging* makes test labels that must never be mailed.
-  *Production* makes real, paid labels. Each environment has its own connection.
+- **Stamps.com Environment:** *Production* (the default) makes real, paid labels with your
+  Stamps.com account. *Staging* is Stamps.com's test system, for developers with a Stamps.com
+  test account; its labels must never be mailed. Each environment has its own connection.
 - **Connection Service URL:** the myZenCartZone service that connects your store. Leave it as
   is.
 - **Ship From:** the sender name, company and address printed on labels and used for pickups.

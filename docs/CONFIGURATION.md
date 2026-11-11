@@ -4,7 +4,7 @@
 
 | Setting | Default | Notes |
 |---|---|---|
-| Stamps.com Environment | staging | **Staging** makes test labels only; never mail one. **Production** makes real, paid labels. Each environment connects separately. |
+| Stamps.com Environment | production | **Production** makes real, paid labels with your Stamps.com account. **Staging** is Stamps.com's test system, for developers with a Stamps.com test account; never mail its labels. Each environment connects separately. |
 | Connection Service URL | `https://myzencartzone.com/stamps-connect` | Leave as is. |
 | Ship From: Name / Company | blank / store name | Printed on labels. At least one is required. |
 | Ship From: Street Address, City, State, ZIP Code | blank | Required before buying labels. State is two letters. |

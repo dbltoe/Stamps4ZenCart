@@ -52,7 +52,7 @@ if (!class_exists('S4zSera', false)) {
 
         public function __construct($env = null)
         {
-            $env = ($env === null) ? s4z_setting('S4Z_ENVIRONMENT', 'staging') : $env;
+            $env = ($env === null) ? s4z_setting('S4Z_ENVIRONMENT', 'production') : $env;
             $this->env = ($env === 'production') ? 'production' : 'staging';
             $this->loadAuth();
         }
@@ -544,7 +544,7 @@ if (!function_exists('s4z_setting')) {
         if ((string)s4z_setting('S4Z_LOG_ERRORS', 'true') !== 'true' || !defined('DIR_FS_LOGS')) {
             return;
         }
-        $line = date('Y-m-d H:i:s') . ' [' . s4z_setting('S4Z_ENVIRONMENT', 'staging') . '] ' . $what . ' -> HTTP ' . (int)$status
+        $line = date('Y-m-d H:i:s') . ' [' . s4z_setting('S4Z_ENVIRONMENT', 'production') . '] ' . $what . ' -> HTTP ' . (int)$status
             . ($message !== '' ? ' : ' . preg_replace('/[\r\n]+/', ' ', $message) : '') . "\n";
         @file_put_contents(DIR_FS_LOGS . '/stamps4zencart-' . date('Ym') . '.log', $line, FILE_APPEND | LOCK_EX);
     }
